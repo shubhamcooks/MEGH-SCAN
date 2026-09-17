@@ -1,0 +1,5 @@
+# Normalize tracked files
+git add --renormalize .
+
+# Commit the .gitattributes file and normalized line endings
+git commit -m "Add .gitattributes and normalize line endings to LF"
